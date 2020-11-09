@@ -1,0 +1,17 @@
+# https://www.robotstxt.org/
+
+# Disallow crawling of all website images
+User-agent: *
+Disallow: /*.gif$
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.png$
+Disallow: /*.svg$
+Disallow: /*.webp$
+
+# Allow crawling of all content
+User-agent: *
+Disallow:
+
+# Website sitemap
+Sitemap: https://ivanruvalcaba.github.io/sitemap.xml
