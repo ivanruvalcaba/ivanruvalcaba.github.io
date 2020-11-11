@@ -3,57 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://ivanruvalcaba.cf/post/</loc>
-    <lastmod>2020-11-10T11:43:58-06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://ivanruvalcaba.cf/categories/</loc>
-    <lastmod>2020-11-10T11:43:58-06:00</lastmod>
+    <lastmod>2020-11-11T10:00:06-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://ivanruvalcaba.cf/tags/efecto-social/</loc>
-    <lastmod>2020-11-10T11:43:58-06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://ivanruvalcaba.cf/</loc>
-    <lastmod>2020-11-10T11:43:58-06:00</lastmod>
+    <lastmod>2020-11-11T10:00:06-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://ivanruvalcaba.cf/post/surplus-cognitivo/</loc>
-    <lastmod>2020-11-10T11:43:58-06:00</lastmod>
+    <lastmod>2020-11-11T10:00:06-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://ivanruvalcaba.cf/tags/</loc>
-    <lastmod>2020-11-10T11:43:58-06:00</lastmod>
+    <lastmod>2020-11-11T10:00:06-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://ivanruvalcaba.cf/categories/terminolog%C3%ADa/</loc>
-    <lastmod>2020-11-10T11:43:58-06:00</lastmod>
+    <lastmod>2020-11-11T10:00:06-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://ivanruvalcaba.cf/acerca-de/</loc>
-    <lastmod>2020-10-11T14:26:01-05:00</lastmod>
+    <lastmod>2020-11-10T14:55:10-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ivanruvalcaba.cf/post/</loc>
+    <lastmod>2020-11-09T02:35:22-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ivanruvalcaba.cf/</loc>
+    <lastmod>2020-11-09T02:35:22-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
