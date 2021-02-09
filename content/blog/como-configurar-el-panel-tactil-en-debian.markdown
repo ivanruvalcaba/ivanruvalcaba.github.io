@@ -2,7 +2,7 @@
 title: Cómo configurar el panel táctil en Debian
 date: 2020-06-13T00:00:00-06:00
 tags: ["debian", "howto", "touchpad", "libinput"]
-author: Iván Ruvalcaba
+draft: false
 ---
 
 Para configurar el panel táctil —*touchpad*— a través de *libinput*, es necesario tener instalado en el sistema el paquete ``xserver-xorg-input-libinput`` y a continuación editar el archivo de configuración ``/usr/share/X11/xorg.conf.d/40-libinput.conf``.

@@ -2,7 +2,7 @@
 title: Defendiendo mi independencia tecnológica
 date: 2021-01-09T00:00:00-06:00
 tags: ["privacidad", "whatsapp", "facebook"]
-author: Iván Ruvalcaba
+draft: false
 ---
 
 Como muchas personas quizás sepan ya, *WhatsApp* ha actualizado sus términos, condiciones y política de privacidad, las cuales **entrarán en vigor a partir del** ~~8 de febrero~~ **15 de mayo** del presente año —según se ha pronunciado la compañía en un [nuevo comunicado](https://blog.whatsapp.com/giving-more-time-for-our-recent-update)—, privando con ello a sus usuarios de la posibilidad de decidir si desean o no aceptar sus nuevas clausulas, lo cual implica que el usuario NO tenga más remedio que aceptar sus condiciones si desean continuar utilizando WhatsApp como medio de comunicación.

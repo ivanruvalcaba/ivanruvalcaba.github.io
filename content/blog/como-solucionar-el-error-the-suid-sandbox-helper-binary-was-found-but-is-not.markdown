@@ -2,7 +2,7 @@
 title: Cómo solucionar el error «The SUID sandbox helper binary was found, but is not configured correctly.» en Debian
 date: 2021-01-01T00:00:00-06:00
 tags: ["debian", "howto", "electron"]
-author: Iván Ruvalcaba
+draft: false
 ---
 
 Este problema ocurre con todas las aplicaciones desarrolladas con el *framework Electron*. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:
