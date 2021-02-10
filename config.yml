@@ -55,10 +55,10 @@ menu:
       url: archives
       weight: 5
     - name: Buscar
-      url: search/
+      url: search
       weight: 10
     - name: Acerca de
-      url: "acerca-de/"
+      url: acerca-de
       weight: 15
 
 outputs:
