@@ -1,40 +1,84 @@
 baseURL: http://ivanruvalcaba.cf/
 title: Bitácora de Iván Ruvalcaba
+languageCode: es-MX
+defaultContentLanguage: es
 paginate: 5
 theme: PaperMod
 
+enableEmoji: true
+enableGitInfo: true
 enableInlineShortcodes: true
 enableRobotsTXT: true
+metaDataFormat: "yaml"
 
 params:
+  author: Iván Ruvalcaba
+  assets:
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+    safari_pinned_tab: "safari-pinned-tab.svg"
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+  socialIcons:
+    - name: github
+      url: "https://github.com/ivanruvalcaba"
+    - name: twitter
+      url: "https://twitter.com/ivnruvalcaba"
   ShowPostNavLinks: true
   ShowReadingTime: true
-
-taxonomies:
-  category: categories
-  tag: tags
-  series: series
+  ShowShareButtons: true
 
 menu:
   main:
     - name: Archivo
       url: archives
       weight: 5
+    - name: Buscar
+      url: search/
+      weight: 10
+    - name: Acerca de
+      url: "acerca-de/"
+      weight: 15
 
+outputs:
+  home:
+    - HTML
+    - JSON
+    - RSS
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"
+
+# Los siguientes parámetros de configuración corresponden a la las regulaciones
+# solicitadas por la «General Data Protection Regulation (GDPR)».
+#
+# Para mayor información, véase: https://gohugo.io/about/hugo-and-gdpr/
 privacy:
   vimeo:
     disabled: false
     simple: true
-
   twitter:
     disabled: false
     enableDNT: true
     simple: true
-
   instagram:
     disabled: false
     simple: true
-
   youtube:
     disabled: false
     privacyEnhanced: true
