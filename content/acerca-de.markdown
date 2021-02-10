@@ -1,6 +1,8 @@
 ---
 title: "Acerca de"
-layout: "page"
+disableShare: true
+hidemeta: true
+searchHidden: true
 ---
 
 [//]: # (## ¿Qué valor le aporta este sitio web?)
