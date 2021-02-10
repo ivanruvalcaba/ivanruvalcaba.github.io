@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bitácora de Iván Ruvalcaba on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</title>
+    <title>Posts on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</title>
     <link>http://ivanruvalcaba.cf/post/</link>
-    <description>Recent content in Bitácora de Iván Ruvalcaba on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</description>
+    <description>Recent content in Posts on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-MX</language><atom:link href="http://ivanruvalcaba.cf/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>es-MX</language>
+    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 -0600</lastBuildDate><atom:link href="http://ivanruvalcaba.cf/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Defendiendo mi independencia tecnológica</title>
+      <link>http://ivanruvalcaba.cf/post/defendiendo-mi-independencia-tecnologica/</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/post/defendiendo-mi-independencia-tecnologica/</guid>
+      <description>Como muchas personas quizás sepan ya, WhatsApp ha actualizado sus términos, condiciones de uso y política de privacidad, las cuales entrarán en vigor a partir del 8 de febrero 15 de mayo del presente año —según se ha pronunciado la compañía en un nuevo comunicado—, privando con ello a sus usuarios de la posibilidad de decidir si desean o no aceptar sus nuevas clausulas, lo cual implica que el usuario NO tenga más remedio que acceder a sus intenciones si desean continuar utilizando WhatsApp como medio de comunicación.</description>
+    </item>
+    
+    <item>
+      <title>Cómo solucionar el error «The SUID sandbox helper binary was found, but is not configured correctly.» en Debian</title>
+      <link>http://ivanruvalcaba.cf/post/como-solucionar-el-error-the-suid-sandbox-helper-binary-was-found-but-is-not/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/post/como-solucionar-el-error-the-suid-sandbox-helper-binary-was-found-but-is-not/</guid>
+      <description>Este problema ocurre con todas las aplicaciones desarrolladas con el framework Electron. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:
+ The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I&amp;rsquo;m aborting now.
+ Para solucionar dicho problema, todo lo que necesita hacer es establecer los permisos adecuados para el archivo chrome-sandbox, por ejemplo:
+cd /opt/whatsdesk sudo chown root:root chrome-sandbox sudo chmod 4755 chrome-sandbox Otras soluciones alternativas, y por lo tanto menos recomendables, son:</description>
+    </item>
+    
+    <item>
+      <title>Cómo eliminar todos los correos electrónicos contenidos en una determinada carpeta con Mutt</title>
+      <link>http://ivanruvalcaba.cf/post/como-eliminar-todos-los-correos-electronicos-contenidos-en-una-determinada/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/post/como-eliminar-todos-los-correos-electronicos-contenidos-en-una-determinada/</guid>
+      <description>Antes de proceder, ubíquese dentro de la carpeta que contenga los correos que desea eliminar —presione c + ? para mostrar un listado de las carpetas existentes en su cuenta de correo—. Una vez hecho lo anterior, presione Shift+d + ~ + Shift+a para eliminar todo el contenido de la carpeta de correo.</description>
+    </item>
+    
     <item>
       <title>Surplus cognitivo</title>
       <link>http://ivanruvalcaba.cf/post/surplus-cognitivo/</link>
@@ -13,6 +44,28 @@
       
       <guid>http://ivanruvalcaba.cf/post/surplus-cognitivo/</guid>
       <description>&lt;p&gt;El &lt;em&gt;surplus cognitivo&lt;/em&gt;, también denominado como «excedente cognitivo», es un concepto desarrollo por Clay Shirky&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; —en su obra &lt;em&gt;Cognitive Surplus: Creativity and Generosity in a Connected Age&lt;/em&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;— que, se fundamenta principalmente en la idea de que todos disponemos de un sobrante —&lt;em&gt;surplus&lt;/em&gt;— cognitivo. Dicho excedente puede ser utilizado, por decisión individual, en la generación de actividades productivas, colaborativas y de enriquecimiento cultural.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>La clave del éxito</title>
+      <link>http://ivanruvalcaba.cf/post/la-clave-del-exito/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/post/la-clave-del-exito/</guid>
+      <description>La riqueza, es decir la realización personal, está al alcance de todas aquellas personas que así lo desean; basta simplemente con desvelar un secreto, la clave del éxito. Para ello lo primero que se necesita es, sistematizarlo; después, hacerlo accesible a cualquier persona del entorno que nos rodea. Para lograr la realización personal es necesario conseguir la independencia financiera y la riqueza del espíritu.
+Los pensamientos son elementos muy poderosos, que cuando se combinan con la exactitud del propósito, la perseverancia y el imperioso deseo de convertirlas en riqueza, ponen de manifiesto el camino hacia el éxito.</description>
+    </item>
+    
+    <item>
+      <title>Cómo configurar el panel táctil en Debian</title>
+      <link>http://ivanruvalcaba.cf/post/como-configurar-el-panel-tactil-en-debian/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/post/como-configurar-el-panel-tactil-en-debian/</guid>
+      <description>Para configurar el panel táctil —touchpad— a través de libinput, es necesario tener instalado en el sistema el paquete xserver-xorg-input-libinput y a continuación editar el archivo de configuración /usr/share/X11/xorg.conf.d/40-libinput.conf.
+Por ejemplo:
+sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf Una vez abierto el archivo, proceda a ubicar y posicionarse en la siguiente sección:
+Section &amp;quot;InputClass&amp;quot; Identifier &amp;quot;libinput touchpad catchall&amp;quot; MatchIsTouchpad &amp;quot;on&amp;quot; MatchDevicePath &amp;quot;/dev/input/event*&amp;quot; Driver &amp;quot;libinput&amp;quot; EndSection Como siguiente paso, agregue las opciones o preferencias correspondientes a dicha sección, como se muestra a continuación:</description>
     </item>
     
   </channel>

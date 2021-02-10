@@ -6,13 +6,130 @@
     <description>Recent content in Tags on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-MX</language>
-    <lastBuildDate>Tue, 10 Nov 2020 11:43:58 -0600</lastBuildDate><atom:link href="http://ivanruvalcaba.cf/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 -0600</lastBuildDate><atom:link href="http://ivanruvalcaba.cf/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>efecto social</title>
+      <title>facebook</title>
+      <link>http://ivanruvalcaba.cf/tags/facebook/</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/tags/facebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>http://ivanruvalcaba.cf/tags/personal/</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacidad</title>
+      <link>http://ivanruvalcaba.cf/tags/privacidad/</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/tags/privacidad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>whatsapp</title>
+      <link>http://ivanruvalcaba.cf/tags/whatsapp/</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/tags/whatsapp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debian</title>
+      <link>http://ivanruvalcaba.cf/tags/debian/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/tags/debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>electron</title>
+      <link>http://ivanruvalcaba.cf/tags/electron/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/tags/electron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>howto</title>
+      <link>http://ivanruvalcaba.cf/tags/howto/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/tags/howto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mutt</title>
+      <link>http://ivanruvalcaba.cf/tags/mutt/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/tags/mutt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>efecto-social</title>
       <link>http://ivanruvalcaba.cf/tags/efecto-social/</link>
       <pubDate>Tue, 10 Nov 2020 11:43:58 -0600</pubDate>
       
       <guid>http://ivanruvalcaba.cf/tags/efecto-social/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminología</title>
+      <link>http://ivanruvalcaba.cf/tags/terminolog%C3%ADa/</link>
+      <pubDate>Tue, 10 Nov 2020 11:43:58 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/tags/terminolog%C3%ADa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>autorealización</title>
+      <link>http://ivanruvalcaba.cf/tags/autorealizaci%C3%B3n/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/tags/autorealizaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>citas</title>
+      <link>http://ivanruvalcaba.cf/tags/citas/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/tags/citas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>libinput</title>
+      <link>http://ivanruvalcaba.cf/tags/libinput/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/tags/libinput/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>touchpad</title>
+      <link>http://ivanruvalcaba.cf/tags/touchpad/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/tags/touchpad/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>electron on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</title>
+    <link>http://ivanruvalcaba.cf/tags/electron/</link>
+    <description>Recent content in electron on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-MX</language>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 -0600</lastBuildDate><atom:link href="http://ivanruvalcaba.cf/tags/electron/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cómo solucionar el error «The SUID sandbox helper binary was found, but is not configured correctly.» en Debian</title>
+      <link>http://ivanruvalcaba.cf/post/como-solucionar-el-error-the-suid-sandbox-helper-binary-was-found-but-is-not/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/post/como-solucionar-el-error-the-suid-sandbox-helper-binary-was-found-but-is-not/</guid>
+      <description>Este problema ocurre con todas las aplicaciones desarrolladas con el framework Electron. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:
+ The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I&amp;rsquo;m aborting now.
+ Para solucionar dicho problema, todo lo que necesita hacer es establecer los permisos adecuados para el archivo chrome-sandbox, por ejemplo:
+cd /opt/whatsdesk sudo chown root:root chrome-sandbox sudo chmod 4755 chrome-sandbox Otras soluciones alternativas, y por lo tanto menos recomendables, son:</description>
+    </item>
+    
+  </channel>
+</rss>
