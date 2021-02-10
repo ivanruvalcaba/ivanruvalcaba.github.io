@@ -1,5 +1,5 @@
-baseURL: http://ivanruvalcaba.cf/
-title: Bitácora de Iván Ruvalcaba
+baseURL: "http://ivanruvalcaba.cf/"
+title: "$ cat /dev/random > /dev/null 2>&1"
 languageCode: es-MX
 defaultContentLanguage: es
 paginate: 5
@@ -27,17 +27,30 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+  profileMode:
+    enabled: true
+    title: Iván Ruvalcaba
+    subtitle: Software Craftsman, Blogger and Hipster 💻
+    imageUrl: "avatar-180x180.png"
+    imageTitle: Iván Ruvalcaba
   socialIcons:
-    - name: github
-      url: "https://github.com/ivanruvalcaba"
+    - name: rss
+      url: "index.xml"
     - name: twitter
       url: "https://twitter.com/ivnruvalcaba"
+    - name: gitlab
+      url: "https://gitlab.com/ivanruvalcaba"
+    - name: github
+      url: "https://github.com/ivanruvalcaba"
   ShowPostNavLinks: true
   ShowReadingTime: true
   ShowShareButtons: true
 
 menu:
   main:
+    - name: Blog
+      url: post
+      weight: 1
     - name: Archivo
       url: archives
       weight: 5
