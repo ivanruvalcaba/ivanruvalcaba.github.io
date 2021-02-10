@@ -1,7 +1,7 @@
 ---
 title: "Surplus cognitivo"
 date: 2020-11-10T11:43:58-06:00
-tags: ["social"]
+tags: ["terminología", "efecto-social"]
 draft: false
 ---
 
