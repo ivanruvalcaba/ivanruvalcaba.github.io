@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/usr/bin/env bash
 #
 # Filename: publish_to_ghpages.sh
 # Author: Iván Ruvalcaba
@@ -51,4 +51,4 @@ echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publicar a gh-pages (publish_to_ghpages.sh)"
 
 echo "Pushing to Github"
-git push --all
+git push --force --all
