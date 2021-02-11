@@ -12,6 +12,13 @@ enableRobotsTXT: true
 metaDataFormat: "yaml"
 
 params:
+  analytics:
+    bing:
+      SiteVerificationTag: 923F21AF4644A4341700A61DB79C740E
+    google:
+      SiteVerificationTag: Kxf_gbaKYmpH0_Y8BguDQPMPSyfDH8daR0RQvQ_t230
+    yandex:
+      SiteVerificationTag: e779e341500bc97b
   author: Iván Ruvalcaba
   assets:
     favicon: "favicon.ico"
@@ -19,7 +26,7 @@ params:
     favicon32x32: "favicon-32x32.png"
     apple_touch_icon: "apple-touch-icon.png"
     safari_pinned_tab: "safari-pinned-tab.svg"
-  analytics.bing.SiteVerificationTag: "923F21AF4644A4341700A61DB79C740E"
+  description: "Blog sobre software y cultura libre — Bitácora de Iván Ruvalcaba"
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -34,6 +41,9 @@ params:
     subtitle: Artesano de Software, Blogger e Hipster 💻
     imageUrl: "avatar-180x180.png"
     imageTitle: Iván Ruvalcaba
+  ShowPostNavLinks: true
+  ShowReadingTime: true
+  ShowShareButtons: true
   socialIcons:
     - name: rss
       url: "index.xml"
@@ -45,9 +55,6 @@ params:
       url: "https://gitlab.com/ivanruvalcaba"
     - name: github
       url: "https://github.com/ivanruvalcaba"
-  ShowPostNavLinks: true
-  ShowReadingTime: true
-  ShowShareButtons: true
 
 menu:
   main:
