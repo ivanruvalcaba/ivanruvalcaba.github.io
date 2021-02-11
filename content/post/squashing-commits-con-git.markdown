@@ -6,7 +6,7 @@ categories:
 tags:
   - "git"
   - "buenas-practicas"
-  - "gestion-de-proyectos"
+  - "gestión-de-proyectos"
 draft: false
 ---
 
