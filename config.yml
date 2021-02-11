@@ -19,6 +19,7 @@ params:
     favicon32x32: "favicon-32x32.png"
     apple_touch_icon: "apple-touch-icon.png"
     safari_pinned_tab: "safari-pinned-tab.svg"
+  analytics.bing.SiteVerificationTag: "923F21AF4644A4341700A61DB79C740E"
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -38,6 +39,8 @@ params:
       url: "index.xml"
     - name: twitter
       url: "https://twitter.com/ivnruvalcaba"
+    - name: email
+      url: "mailto:ivanruvalcaba@disroot.org"
     - name: gitlab
       url: "https://gitlab.com/ivanruvalcaba"
     - name: github
