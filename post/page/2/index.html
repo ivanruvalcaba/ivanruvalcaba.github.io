@@ -29,7 +29,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://ivanruvalcaba.cf/post/" />
-<meta property="og:updated_time" content="2021-02-10T21:02:24-06:00" />
+<meta property="og:updated_time" content="2021-02-11T07:45:05-06:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
 <meta name="twitter:description" content=""/>
@@ -129,8 +129,8 @@
   <section class="entry-content">
     <p>Para configurar el panel táctil —touchpad— a través de libinput, es necesario tener instalado en el sistema el paquete xserver-xorg-input-libinput y a continuación editar el archivo de configuración /usr/share/X11/xorg.conf.d/40-libinput.conf.
 Por ejemplo:
-sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf Una vez abierto el archivo, proceda a ubicar y posicionarse en la siguiente sección:
-Section &#34;InputClass&#34; Identifier &#34;libinput touchpad catchall&#34; MatchIsTouchpad &#34;on&#34; MatchDevicePath &#34;/dev/input/event*&#34; Driver &#34;libinput&#34; EndSection Como siguiente paso, agregue las opciones o preferencias correspondientes a dicha sección, como se muestra a continuación:...</p>
+sudo nano /usr/share/X11/xorg.conf.d/40-libinput.confUna vez abierto el archivo, proceda a ubicar y posicionarse en la siguiente sección:
+Section &#34;InputClass&#34;Identifier &#34;libinput touchpad catchall&#34;MatchIsTouchpad &#34;on&#34;MatchDevicePath &#34;/dev/input/event*&#34;Driver &#34;libinput&#34;EndSectionComo siguiente paso, agregue las opciones o preferencias correspondientes a dicha sección, como se muestra a continuación:...</p>
   </section>
   <footer class="entry-footer">
 
@@ -170,6 +170,22 @@ April 15, 2020&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Iván Ruvalcaba
 October 26, 2018&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Iván Ruvalcaba
 </footer>
   <a class="entry-link" aria-label="post link to El despropósito de la web actual" href="http://ivanruvalcaba.cf/post/el-desproposito-de-la-web-actual/"></a>
+</article>
+<article class="post-entry"> 
+
+  <header class="entry-header">
+    <h2>
+      Squashing commits con Git
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>En diversas ocasiones, mientras se trabaja en un proyecto, posiblemente desee revisar su historial de revisiones (commits). Una de las principales razones podría ser la de revisar los cambios realizados antes de ser enviados «upstream». Otra posible razón podría ser la de revisar los comentarios dentro del repositorio para efectuar el lanzamiento de una nueva versión del proyecto. O simplemente quizás le gustaría reorganizar o “limpiar” el histórico de versiones para mantener una mejor coherencia en la descripción de los cambios efectuados, siendo este último punto donde destaca la verdadera importancia de llevar a cabo una de las mejores prácticas al recurrir a un sistema de control de versiones: los squashing commits....</p>
+  </section>
+  <footer class="entry-footer">
+
+August 31, 2017&nbsp;·&nbsp;10 min&nbsp;·&nbsp;Iván Ruvalcaba
+</footer>
+  <a class="entry-link" aria-label="post link to Squashing commits con Git" href="http://ivanruvalcaba.cf/post/squashing-commits-con-git/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

@@ -25,7 +25,7 @@
       <description>Este problema ocurre con todas las aplicaciones desarrolladas con el framework Electron. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:
  The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I&amp;rsquo;m aborting now.
  Para solucionar dicho problema, todo lo que necesita hacer es establecer los permisos adecuados para el archivo chrome-sandbox, por ejemplo:
-cd /opt/whatsdesk sudo chown root:root chrome-sandbox sudo chmod 4755 chrome-sandbox Otras soluciones alternativas, y por lo tanto menos recomendables, son:</description>
+cd /opt/whatsdesksudo chown root:root chrome-sandboxsudo chmod 4755 chrome-sandboxOtras soluciones alternativas, y por lo tanto menos recomendables, son:</description>
     </item>
     
     <item>
@@ -64,8 +64,8 @@ Los pensamientos son elementos muy poderosos, que cuando se combinan con la exac
       <guid>http://ivanruvalcaba.cf/post/como-configurar-el-panel-tactil-en-debian/</guid>
       <description>Para configurar el panel táctil —touchpad— a través de libinput, es necesario tener instalado en el sistema el paquete xserver-xorg-input-libinput y a continuación editar el archivo de configuración /usr/share/X11/xorg.conf.d/40-libinput.conf.
 Por ejemplo:
-sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf Una vez abierto el archivo, proceda a ubicar y posicionarse en la siguiente sección:
-Section &amp;quot;InputClass&amp;quot; Identifier &amp;quot;libinput touchpad catchall&amp;quot; MatchIsTouchpad &amp;quot;on&amp;quot; MatchDevicePath &amp;quot;/dev/input/event*&amp;quot; Driver &amp;quot;libinput&amp;quot; EndSection Como siguiente paso, agregue las opciones o preferencias correspondientes a dicha sección, como se muestra a continuación:</description>
+sudo nano /usr/share/X11/xorg.conf.d/40-libinput.confUna vez abierto el archivo, proceda a ubicar y posicionarse en la siguiente sección:
+Section &amp;quot;InputClass&amp;quot;Identifier &amp;quot;libinput touchpad catchall&amp;quot;MatchIsTouchpad &amp;quot;on&amp;quot;MatchDevicePath &amp;quot;/dev/input/event*&amp;quot;Driver &amp;quot;libinput&amp;quot;EndSectionComo siguiente paso, agregue las opciones o preferencias correspondientes a dicha sección, como se muestra a continuación:</description>
     </item>
     
     <item>
@@ -85,6 +85,15 @@ Este fenómeno es común entre adultos jóvenes en edades que comprenden los 20 
       
       <guid>http://ivanruvalcaba.cf/post/el-desproposito-de-la-web-actual/</guid>
       <description>La velocidad de transferencia de datos de nuestra conexión a Internet es mucho más rápida que hace poco más de una década, sin embargo la experiencia de navegación a través de la red no refleja tal realidad. Esto se debe a que el ancho de banda actualmente disponible es empleado para sobrecargar los páginas web con más y más cosas, las cuales casi siempre resultan ser bastante innecesarias y superfluas.</description>
+    </item>
+    
+    <item>
+      <title>Squashing commits con Git</title>
+      <link>http://ivanruvalcaba.cf/post/squashing-commits-con-git/</link>
+      <pubDate>Thu, 31 Aug 2017 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/post/squashing-commits-con-git/</guid>
+      <description>En diversas ocasiones, mientras se trabaja en un proyecto, posiblemente desee revisar su historial de revisiones (commits). Una de las principales razones podría ser la de revisar los cambios realizados antes de ser enviados «upstream». Otra posible razón podría ser la de revisar los comentarios dentro del repositorio para efectuar el lanzamiento de una nueva versión del proyecto. O simplemente quizás le gustaría reorganizar o “limpiar” el histórico de versiones para mantener una mejor coherencia en la descripción de los cambios efectuados, siendo este último punto donde destaca la verdadera importancia de llevar a cabo una de las mejores prácticas al recurrir a un sistema de control de versiones: los squashing commits.</description>
     </item>
     
     <item>

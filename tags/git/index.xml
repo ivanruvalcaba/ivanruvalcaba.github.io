@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</title>
+    <link>http://ivanruvalcaba.cf/tags/git/</link>
+    <description>Recent content in git on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-MX</language>
+    <lastBuildDate>Thu, 31 Aug 2017 00:00:00 -0600</lastBuildDate><atom:link href="http://ivanruvalcaba.cf/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Squashing commits con Git</title>
+      <link>http://ivanruvalcaba.cf/post/squashing-commits-con-git/</link>
+      <pubDate>Thu, 31 Aug 2017 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/post/squashing-commits-con-git/</guid>
+      <description>En diversas ocasiones, mientras se trabaja en un proyecto, posiblemente desee revisar su historial de revisiones (commits). Una de las principales razones podría ser la de revisar los cambios realizados antes de ser enviados «upstream». Otra posible razón podría ser la de revisar los comentarios dentro del repositorio para efectuar el lanzamiento de una nueva versión del proyecto. O simplemente quizás le gustaría reorganizar o “limpiar” el histórico de versiones para mantener una mejor coherencia en la descripción de los cambios efectuados, siendo este último punto donde destaca la verdadera importancia de llevar a cabo una de las mejores prácticas al recurrir a un sistema de control de versiones: los squashing commits.</description>
+    </item>
+    
+  </channel>
+</rss>
