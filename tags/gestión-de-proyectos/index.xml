@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gestion-de-proyectos on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</title>
-    <link>http://ivanruvalcaba.cf/tags/gestion-de-proyectos/</link>
-    <description>Recent content in gestion-de-proyectos on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</description>
+    <title>gestión-de-proyectos on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</title>
+    <link>http://ivanruvalcaba.cf/tags/gesti%C3%B3n-de-proyectos/</link>
+    <description>Recent content in gestión-de-proyectos on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-MX</language>
-    <lastBuildDate>Thu, 31 Aug 2017 00:00:00 -0600</lastBuildDate><atom:link href="http://ivanruvalcaba.cf/tags/gestion-de-proyectos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Aug 2017 00:00:00 -0600</lastBuildDate><atom:link href="http://ivanruvalcaba.cf/tags/gesti%C3%B3n-de-proyectos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Squashing commits con Git</title>
       <link>http://ivanruvalcaba.cf/post/squashing-commits-con-git/</link>

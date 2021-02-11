@@ -7,7 +7,7 @@ tags:
   - "git"
   - "buenas-practicas"
   - "gestion-de-proyectos"
-draft: fa
+draft: false
 ---
 
 ![](/images/git-logo-wide.jpg "Sistema de control de versiones")
