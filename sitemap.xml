@@ -4,14 +4,14 @@
   
   <url>
     <loc>http://ivanruvalcaba.cf/</loc>
-    <lastmod>2021-02-10T18:03:04-06:00</lastmod>
+    <lastmod>2021-02-10T21:02:24-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://ivanruvalcaba.cf/categories/</loc>
-    <lastmod>2021-02-10T18:03:04-06:00</lastmod>
+    <lastmod>2021-02-10T21:02:24-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -46,7 +46,7 @@
   
   <url>
     <loc>http://ivanruvalcaba.cf/post/</loc>
-    <lastmod>2021-02-10T18:03:04-06:00</lastmod>
+    <lastmod>2021-02-10T21:02:24-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -60,7 +60,7 @@
   
   <url>
     <loc>http://ivanruvalcaba.cf/tags/</loc>
-    <lastmod>2021-02-10T18:03:04-06:00</lastmod>
+    <lastmod>2021-02-10T21:02:24-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -130,7 +130,7 @@
   
   <url>
     <loc>http://ivanruvalcaba.cf/categories/terminolog%C3%ADa/</loc>
-    <lastmod>2021-02-10T18:01:17-06:00</lastmod>
+    <lastmod>2021-02-10T21:02:24-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -173,6 +173,20 @@
   <url>
     <loc>http://ivanruvalcaba.cf/tags/touchpad/</loc>
     <lastmod>2021-02-10T18:01:17-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ivanruvalcaba.cf/tags/conducta-social/</loc>
+    <lastmod>2021-02-10T21:02:24-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://ivanruvalcaba.cf/post/fenomeno-lifestyle-creep/</loc>
+    <lastmod>2021-02-10T21:02:24-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
