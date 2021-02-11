@@ -1,7 +1,11 @@
 ---
 title: Cómo configurar el panel táctil en Debian
 date: 2020-06-13T00:00:00-06:00
-tags: ["debian", "howto", "touchpad", "libinput"]
+tags:
+  - "debian"
+  - "howto"
+  - "touchpad"
+  - "libinput"
 draft: false
 ---
 

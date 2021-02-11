@@ -1,7 +1,13 @@
 ---
 title: Defendiendo mi independencia tecnológica
 date: 2021-01-09T00:00:00-06:00
-tags: ["privacidad", "whatsapp", "facebook", "personal"]
+categories:
+  - "opinión"
+tags:
+  - "privacidad"
+  - "whatsapp"
+  - "facebook"
+  - "personal"
 draft: false
 ---
 

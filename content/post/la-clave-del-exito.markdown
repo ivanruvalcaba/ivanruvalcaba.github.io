@@ -1,7 +1,10 @@
 ---
 title: La clave del éxito
 date: 2020-10-05T00:00:00-06:00
-tags: ["autorealización", "citas"]
+categories:
+  - "citas"
+tags:
+  - "autorealización"
 draft: false
 ---
 
