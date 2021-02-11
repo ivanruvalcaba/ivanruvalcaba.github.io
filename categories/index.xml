@@ -5,6 +5,34 @@
     <link>http://ivanruvalcaba.cf/categories/</link>
     <description>Recent content in Categories on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-MX</language><atom:link href="http://ivanruvalcaba.cf/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>es-MX</language>
+    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 -0600</lastBuildDate><atom:link href="http://ivanruvalcaba.cf/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>opinión</title>
+      <link>http://ivanruvalcaba.cf/categories/opini%C3%B3n/</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/categories/opini%C3%B3n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminología</title>
+      <link>http://ivanruvalcaba.cf/categories/terminolog%C3%ADa/</link>
+      <pubDate>Tue, 10 Nov 2020 11:43:58 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/categories/terminolog%C3%ADa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>citas</title>
+      <link>http://ivanruvalcaba.cf/categories/citas/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 -0600</pubDate>
+      
+      <guid>http://ivanruvalcaba.cf/categories/citas/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
