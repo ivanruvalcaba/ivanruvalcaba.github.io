@@ -5,7 +5,7 @@ categories:
   - "sistema-de-control-de-versiones"
 tags:
   - "git"
-  - "buenas-practicas"
+  - "buenas-prácticas"
   - "gestión-de-proyectos"
 draft: false
 ---
