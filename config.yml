@@ -55,21 +55,26 @@ params:
       url: "https://gitlab.com/ivanruvalcaba"
     - name: github
       url: "https://github.com/ivanruvalcaba"
+    - name: buymeacoffee
+      url: "https://paypal.me/ivnruvalcaba"
 
 menu:
   main:
     - name: Blog
       url: post
       weight: 1
+    - name: Categorías
+      url: categories
+      weight: 2
     - name: Archivo
       url: archives
-      weight: 5
+      weight: 3
     - name: Buscar
       url: search
-      weight: 10
+      weight: 4
     - name: Acerca de
       url: acerca-de
-      weight: 15
+      weight: 5
 
 outputs:
   home:
