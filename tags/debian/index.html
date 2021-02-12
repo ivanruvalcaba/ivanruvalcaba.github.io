@@ -97,6 +97,11 @@
                 </a>
             </li>
             <li>
+                <a href="http://ivanruvalcaba.cf/categories" title="Categorías">
+                    <span>Categorías</span>
+                </a>
+            </li>
+            <li>
                 <a href="http://ivanruvalcaba.cf/archives" title="Archivo">
                     <span>Archivo</span>
                 </a>
@@ -133,7 +138,7 @@
     <p>Este problema ocurre con todas las aplicaciones desarrolladas con el framework Electron. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:
  The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I’m aborting now.
  Para solucionar dicho problema, todo lo que necesita hacer es establecer los permisos adecuados para el archivo chrome-sandbox, por ejemplo:
-cd /opt/whatsdesk sudo chown root:root chrome-sandbox sudo chmod 4755 chrome-sandbox Otras soluciones alternativas, y por lo tanto menos recomendables, son:...</p>
+cd /opt/whatsdesksudo chown root:root chrome-sandboxsudo chmod 4755 chrome-sandboxOtras soluciones alternativas, y por lo tanto menos recomendables, son:...</p>
   </section>
   <footer class="entry-footer">
 
@@ -151,8 +156,8 @@ January 1, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Iván Ruvalcaba
   <section class="entry-content">
     <p>Para configurar el panel táctil —touchpad— a través de libinput, es necesario tener instalado en el sistema el paquete xserver-xorg-input-libinput y a continuación editar el archivo de configuración /usr/share/X11/xorg.conf.d/40-libinput.conf.
 Por ejemplo:
-sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf Una vez abierto el archivo, proceda a ubicar y posicionarse en la siguiente sección:
-Section &#34;InputClass&#34; Identifier &#34;libinput touchpad catchall&#34; MatchIsTouchpad &#34;on&#34; MatchDevicePath &#34;/dev/input/event*&#34; Driver &#34;libinput&#34; EndSection Como siguiente paso, agregue las opciones o preferencias correspondientes a dicha sección, como se muestra a continuación:...</p>
+sudo nano /usr/share/X11/xorg.conf.d/40-libinput.confUna vez abierto el archivo, proceda a ubicar y posicionarse en la siguiente sección:
+Section &#34;InputClass&#34;Identifier &#34;libinput touchpad catchall&#34;MatchIsTouchpad &#34;on&#34;MatchDevicePath &#34;/dev/input/event*&#34;Driver &#34;libinput&#34;EndSectionComo siguiente paso, agregue las opciones o preferencias correspondientes a dicha sección, como se muestra a continuación:...</p>
   </section>
   <footer class="entry-footer">
 
