@@ -5,9 +5,9 @@ categories:
   - "opinión"
 tags:
   - "privacidad"
+  - "personal"
   - "whatsapp"
   - "facebook"
-  - "personal"
 draft: false
 ---
 

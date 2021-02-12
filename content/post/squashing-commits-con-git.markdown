@@ -2,9 +2,9 @@
 title: "Squashing commits con Git"
 date: 2017-08-31T00:00:00-06:00
 categories:
-  - "sistema-de-control-de-versiones"
-tags:
   - "git"
+tags:
+  - "sistema-de-control-de-versiones"
   - "buenas-prácticas"
   - "gestión-de-proyectos"
 draft: false

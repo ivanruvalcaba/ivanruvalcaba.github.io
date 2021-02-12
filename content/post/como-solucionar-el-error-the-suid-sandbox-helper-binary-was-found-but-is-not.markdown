@@ -1,9 +1,10 @@
 ---
 title: Cómo solucionar el error «The SUID sandbox helper binary was found, but is not configured correctly.» en Debian
 date: 2021-01-01T00:00:00-06:00
+categories:
+  - "how-to"
 tags:
   - "debian"
-  - "howto"
   - "electron"
 draft: false
 ---

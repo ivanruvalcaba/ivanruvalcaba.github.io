@@ -1,9 +1,11 @@
 ---
 title: Cómo eliminar todos los correos electrónicos contenidos en una determinada carpeta con Mutt
 date: 2020-12-31T00:00:00-06:00
+categories:
+  - "how-to"
 tags:
   - "mutt"
-  - "howto"
+  - "cliente-de-email"
 draft: false
 ---
 
