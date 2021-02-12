@@ -10,9 +10,9 @@ tags:
 draft: false
 ---
 
-![](/images/git-logo-wide.jpg "Sistema de control de versiones")
+![Git logo](/images/git_logo.jpg#center "Sistema de control de versiones")
 
-En diversas ocasiones, mientras se trabaja en un proyecto, posiblemente desee revisar su historial de revisiones (*commits*). Una de las principales razones podría ser la de revisar los cambios realizados **antes de ser enviados «upstream»**. Otra posible razón podría ser la de revisar los comentarios dentro del repositorio para efectuar el lanzamiento de una nueva versión del proyecto. O simplemente quizás le gustaría reorganizar o “limpiar” el histórico de versiones para mantener una mejor coherencia en la descripción de los cambios efectuados, siendo este último punto donde destaca la verdadera importancia de llevar a cabo una de las mejores prácticas al recurrir a un sistema de control de versiones: los *squashing commits*.
+En diversas ocasiones, mientras se trabaja en un proyecto, posiblemente desee revisar su historial de revisiones (*commits*). Una de las principales razones podría ser la de revisar los cambios realizados **antes de ser enviados «upstream»**. Otra posible razón podría ser la de revisar los comentarios dentro del repositorio para efectuar el lanzamiento de una nueva versión del proyecto. O simplemente quizás le gustaría reorganizar o «limpiar» el histórico de versiones para mantener una mejor coherencia en la descripción de los cambios efectuados, siendo este último punto donde destaca la verdadera importancia de llevar a cabo una de las mejores prácticas al recurrir a un sistema de control de versiones: los *squashing commits*.
 
 > La finalidad de realizar un *squash commit* consiste básicamente en comprimir el histórico del proyecto en una única revisión (*commit*), permitiéndole con ello reescribir el histórico de revisiones del mismo.
 
@@ -56,7 +56,7 @@ Cabe hacer la observación, a modo de recordatorio, que `HEAD` hace referencia a
 
 ## Squashing commits
 
-![](/images/git_commit_example.png "Típico ejemplo de un histórico de revisiones")
+![Histórico de versiones en git](/images/git_commit_example.png#center "Típico ejemplo de un histórico de revisiones")
 
 ### Consideraciones a tener en cuenta
 
@@ -204,7 +204,7 @@ squash 810ac42 Add README to project
 
 En el ejemplo anterior combinaré las revisiones `188f7b7 Update README (revision 2)` y `810ac42 Add README to project` en una sola, sustituyendo la revisión `2fc3775 Update README (revision 1)` con el resultado de dicha operación. Guarde y cierre el archivo una vez haya realizado las modificaciones pertinentes para confirmar la acción. De lo contrario, elimine completamente el contenido del archivo para abortar el procedimiento.
 
-A continuación, se lanzará automáticamente el editor una vez más, mostrándole el resultado de la operación anterior, al mismo tiempo que le permitirá redactar un mensaje en el cual puede exponer el o los argumentos que motivaron dicha revisión a modo de descripción. Para ello es necesario eliminar las líneas que no se encuentren comentadas, es decir, las líneas que no comienzan con el símbolo *#* o en su defecto, comentar tales líneas:
+A continuación, se lanzará automáticamente el editor una vez más, mostrándole el resultado de la operación anterior, al mismo tiempo que le permitirá redactar un mensaje en el cual puede exponer el o los argumentos que motivaron dicha revisión a modo de descripción. Para ello es necesario eliminar las líneas que no se encuentren comentadas, es decir, las líneas que no comienzan con el símbolo `#` o en su defecto, comentar tales líneas:
 
 ```
 # This is a combination of 3 commits.
@@ -310,8 +310,6 @@ Obteniendo el resultado esperado:
 ## Palabras finales
 
 Sin lugar a dudas el practicar *squashing commits* con cierta regularidad en nuestros proyectos mejorará notablemente nuestra productividad, así como también, nos permitirá desarrollar buenas prácticas en la gestión del mismo. Sin embargo, el planteamiento aquí descrito ha sido demasiado elemental y un uso más avanzado de `git rebase` se encuentra fuera del ámbito de este artículo. Con ello pretendo animar al lector a descubrir nuevas y distintas posibilidades de uso, pudiendo recurrir a la bibliografía que se indica en seguida para tal fin.
-
-Para finalizar, me encartaría conocer su opinión u observaciones al respecto, no dude en plantearme sus pensamientos o ideas en los comentarios.
 
 ### Referencias
 
