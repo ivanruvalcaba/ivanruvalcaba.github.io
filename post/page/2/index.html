@@ -32,7 +32,7 @@
 <meta property="og:description" content="Blog sobre software y cultura libre — Bitácora de Iván Ruvalcaba" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://ivanruvalcaba.cf/post/" />
-<meta property="og:updated_time" content="2021-02-12T06:51:48-06:00" />
+<meta property="og:updated_time" content="2021-02-12T12:14:52-06:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
 <meta name="twitter:description" content="Blog sobre software y cultura libre — Bitácora de Iván Ruvalcaba"/>
@@ -137,8 +137,8 @@
   <section class="entry-content">
     <p>Para configurar el panel táctil —touchpad— a través de libinput, es necesario tener instalado en el sistema el paquete xserver-xorg-input-libinput y a continuación editar el archivo de configuración /usr/share/X11/xorg.conf.d/40-libinput.conf.
 Por ejemplo:
-sudo nano /usr/share/X11/xorg.conf.d/40-libinput.confUna vez abierto el archivo, proceda a ubicar y posicionarse en la siguiente sección:
-Section &#34;InputClass&#34;Identifier &#34;libinput touchpad catchall&#34;MatchIsTouchpad &#34;on&#34;MatchDevicePath &#34;/dev/input/event*&#34;Driver &#34;libinput&#34;EndSectionComo siguiente paso, agregue las opciones o preferencias correspondientes a dicha sección, como se muestra a continuación:...</p>
+sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf Una vez abierto el archivo, proceda a ubicar y posicionarse en la siguiente sección:
+Section &#34;InputClass&#34; Identifier &#34;libinput touchpad catchall&#34; MatchIsTouchpad &#34;on&#34; MatchDevicePath &#34;/dev/input/event*&#34; Driver &#34;libinput&#34; EndSection Como siguiente paso, agregue las opciones o preferencias correspondientes a dicha sección, como se muestra a continuación:...</p>
   </section>
   <footer class="entry-footer">
 

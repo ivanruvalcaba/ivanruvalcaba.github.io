@@ -7,11 +7,11 @@
 <meta name="robots" content="index, follow">
 <title>Cómo solucionar el error «The SUID sandbox helper binary was found, but is not configured correctly.» en Debian | $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</title>
 
-<meta name="keywords" content="debian, howto, electron" />
+<meta name="keywords" content="debian, electron" />
 <meta name="description" content="Este problema ocurre con todas las aplicaciones desarrolladas con el framework Electron. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:
  The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I&rsquo;m aborting now.
  Para solucionar dicho problema, todo lo que necesita hacer es establecer los permisos adecuados para el archivo chrome-sandbox, por ejemplo:
-cd /opt/whatsdesksudo chown root:root chrome-sandboxsudo chmod 4755 chrome-sandboxOtras soluciones alternativas, y por lo tanto menos recomendables, son:">
+cd /opt/whatsdesk sudo chown root:root chrome-sandbox sudo chmod 4755 chrome-sandbox Otras soluciones alternativas, y por lo tanto menos recomendables, son:">
 <meta name="author" content="Iván Ruvalcaba">
 <link rel="canonical" href="http://ivanruvalcaba.cf/post/como-solucionar-el-error-the-suid-sandbox-helper-binary-was-found-but-is-not/" />
 <meta name="google-site-verification" content="Kxf_gbaKYmpH0_Y8BguDQPMPSyfDH8daR0RQvQ_t230" />
@@ -34,17 +34,17 @@ cd /opt/whatsdesksudo chown root:root chrome-sandboxsudo chmod 4755 chrome-san
 <meta property="og:description" content="Este problema ocurre con todas las aplicaciones desarrolladas con el framework Electron. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:
  The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I&rsquo;m aborting now.
  Para solucionar dicho problema, todo lo que necesita hacer es establecer los permisos adecuados para el archivo chrome-sandbox, por ejemplo:
-cd /opt/whatsdesksudo chown root:root chrome-sandboxsudo chmod 4755 chrome-sandboxOtras soluciones alternativas, y por lo tanto menos recomendables, son:" />
+cd /opt/whatsdesk sudo chown root:root chrome-sandbox sudo chmod 4755 chrome-sandbox Otras soluciones alternativas, y por lo tanto menos recomendables, son:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://ivanruvalcaba.cf/post/como-solucionar-el-error-the-suid-sandbox-helper-binary-was-found-but-is-not/" />
 <meta property="article:published_time" content="2021-01-01T00:00:00-06:00" />
-<meta property="article:modified_time" content="2021-02-10T18:01:17-06:00" />
+<meta property="article:modified_time" content="2021-02-12T12:14:52-06:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Cómo solucionar el error «The SUID sandbox helper binary was found, but is not configured correctly.» en Debian"/>
 <meta name="twitter:description" content="Este problema ocurre con todas las aplicaciones desarrolladas con el framework Electron. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:
  The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I&rsquo;m aborting now.
  Para solucionar dicho problema, todo lo que necesita hacer es establecer los permisos adecuados para el archivo chrome-sandbox, por ejemplo:
-cd /opt/whatsdesksudo chown root:root chrome-sandboxsudo chmod 4755 chrome-sandboxOtras soluciones alternativas, y por lo tanto menos recomendables, son:"/>
+cd /opt/whatsdesk sudo chown root:root chrome-sandbox sudo chmod 4755 chrome-sandbox Otras soluciones alternativas, y por lo tanto menos recomendables, son:"/>
 
 <script type="application/ld+json">
 {
@@ -54,13 +54,13 @@ cd /opt/whatsdesksudo chown root:root chrome-sandboxsudo chmod 4755 chrome-san
   "name": "Cómo solucionar el error «The SUID sandbox helper binary was found, but is not configured correctly.» en Debian",
   "description": "Este problema ocurre con todas las aplicaciones desarrolladas con el framework Electron. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:\n The …",
   "keywords": [
-    "debian", "howto", "electron"
+    "debian", "electron"
   ],
-  "articleBody": "Este problema ocurre con todas las aplicaciones desarrolladas con el framework Electron. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:\n The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I’m aborting now.\n Para solucionar dicho problema, todo lo que necesita hacer es establecer los permisos adecuados para el archivo chrome-sandbox, por ejemplo:\ncd /opt/whatsdesk\rsudo chown root:root chrome-sandbox\rsudo chmod 4755 chrome-sandbox\rOtras soluciones alternativas, y por lo tanto menos recomendables, son:\n Ejecutar la aplicación con el argumento --no-sandbox:  ./whatsdesk --no-sandbox\rHabilitar el acceso sin privilegios del kernel:  sudo sysctl kernel.unprivileged_userns_clone=1\r",
+  "articleBody": "Este problema ocurre con todas las aplicaciones desarrolladas con el framework Electron. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:\n The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I’m aborting now.\n Para solucionar dicho problema, todo lo que necesita hacer es establecer los permisos adecuados para el archivo chrome-sandbox, por ejemplo:\ncd /opt/whatsdesk sudo chown root:root chrome-sandbox sudo chmod 4755 chrome-sandbox Otras soluciones alternativas, y por lo tanto menos recomendables, son:\n Ejecutar la aplicación con el argumento --no-sandbox:  ./whatsdesk --no-sandbox Habilitar el acceso sin privilegios del kernel:  sudo sysctl kernel.unprivileged_userns_clone=1 ",
   "wordCount" : "103",
   "inLanguage": "es",
   "datePublished": "2021-01-01T00:00:00-06:00",
-  "dateModified": "2021-02-10T18:01:17-06:00",
+  "dateModified": "2021-02-12T12:14:52-06:00",
   "author":{
     "@type": "Person",
     "name": "Iván Ruvalcaba"
@@ -200,7 +200,6 @@ sudo chmod 4755 chrome-sandbox
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="http://ivanruvalcaba.cf/tags/debian/">debian</a></li>
-      <li><a href="http://ivanruvalcaba.cf/tags/howto/">howto</a></li>
       <li><a href="http://ivanruvalcaba.cf/tags/electron/">electron</a></li>
     </ul>
     <nav class="paginav">
@@ -223,7 +222,7 @@ sudo chmod 4755 chrome-sandbox
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share Cómo solucionar el error «The SUID sandbox helper binary was found, but is not configured correctly.» en Debian on twitter"
-        href="https://twitter.com/intent/tweet/?text=C%c3%b3mo%20solucionar%20el%20error%20%c2%abThe%20SUID%20sandbox%20helper%20binary%20was%20found%2c%20but%20is%20not%20configured%20correctly.%c2%bb%20en%20Debian&amp;url=http%3a%2f%2fivanruvalcaba.cf%2fpost%2fcomo-solucionar-el-error-the-suid-sandbox-helper-binary-was-found-but-is-not%2f&amp;hashtags=debian%2chowto%2celectron">
+        href="https://twitter.com/intent/tweet/?text=C%c3%b3mo%20solucionar%20el%20error%20%c2%abThe%20SUID%20sandbox%20helper%20binary%20was%20found%2c%20but%20is%20not%20configured%20correctly.%c2%bb%20en%20Debian&amp;url=http%3a%2f%2fivanruvalcaba.cf%2fpost%2fcomo-solucionar-el-error-the-suid-sandbox-helper-binary-was-found-but-is-not%2f&amp;hashtags=debian%2celectron">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />

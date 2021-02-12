@@ -5,12 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>libinput | $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</title>
+<title>git | $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</title>
 
 <meta name="keywords" content="" />
 <meta name="description" content="Blog sobre software y cultura libre — Bitácora de Iván Ruvalcaba">
 <meta name="author" content="Iván Ruvalcaba">
-<link rel="canonical" href="http://ivanruvalcaba.cf/tags/libinput/" />
+<link rel="canonical" href="http://ivanruvalcaba.cf/categories/git/" />
 <meta name="google-site-verification" content="Kxf_gbaKYmpH0_Y8BguDQPMPSyfDH8daR0RQvQ_t230" />
 <meta name="yandex-verification" content="e779e341500bc97b" />
 <meta name="msvalidate.01" content="923F21AF4644A4341700A61DB79C740E" />
@@ -25,16 +25,16 @@
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <meta name="generator" content="Hugo 0.80.0" />
-<link rel="alternate" type="application/rss&#43;xml" href="http://ivanruvalcaba.cf/tags/libinput/index.xml">
+<link rel="alternate" type="application/rss&#43;xml" href="http://ivanruvalcaba.cf/categories/git/index.xml">
 
 
-<meta property="og:title" content="libinput" />
+<meta property="og:title" content="git" />
 <meta property="og:description" content="Blog sobre software y cultura libre — Bitácora de Iván Ruvalcaba" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://ivanruvalcaba.cf/tags/libinput/" />
-<meta property="og:updated_time" content="2021-02-10T18:01:17-06:00" />
+<meta property="og:url" content="http://ivanruvalcaba.cf/categories/git/" />
+<meta property="og:updated_time" content="2021-02-12T12:14:52-06:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="libinput"/>
+<meta name="twitter:title" content="git"/>
 <meta name="twitter:description" content="Blog sobre software y cultura libre — Bitácora de Iván Ruvalcaba"/>
 
 
@@ -122,7 +122,7 @@
     <main class="main"> 
 <header class="page-header">
 
-  <h1>libinput</h1>
+  <h1>git</h1>
 </header>
 
 
@@ -131,20 +131,17 @@
 
   <header class="entry-header">
     <h2>
-      Cómo configurar el panel táctil en Debian
+      Squashing commits con Git
     </h2>
   </header>
   <section class="entry-content">
-    <p>Para configurar el panel táctil —touchpad— a través de libinput, es necesario tener instalado en el sistema el paquete xserver-xorg-input-libinput y a continuación editar el archivo de configuración /usr/share/X11/xorg.conf.d/40-libinput.conf.
-Por ejemplo:
-sudo nano /usr/share/X11/xorg.conf.d/40-libinput.confUna vez abierto el archivo, proceda a ubicar y posicionarse en la siguiente sección:
-Section &#34;InputClass&#34;Identifier &#34;libinput touchpad catchall&#34;MatchIsTouchpad &#34;on&#34;MatchDevicePath &#34;/dev/input/event*&#34;Driver &#34;libinput&#34;EndSectionComo siguiente paso, agregue las opciones o preferencias correspondientes a dicha sección, como se muestra a continuación:...</p>
+    <p>En diversas ocasiones, mientras se trabaja en un proyecto, posiblemente desee revisar su historial de revisiones (commits). Una de las principales razones podría ser la de revisar los cambios realizados antes de ser enviados «upstream». Otra posible razón podría ser la de revisar los comentarios dentro del repositorio para efectuar el lanzamiento de una nueva versión del proyecto. O simplemente quizás le gustaría reorganizar o «limpiar» el histórico de versiones para mantener una mejor coherencia en la descripción de los cambios efectuados, siendo este último punto donde destaca la verdadera importancia de llevar a cabo una de las mejores prácticas al recurrir a un sistema de control de versiones: los squashing commits....</p>
   </section>
   <footer class="entry-footer">
 
-June 13, 2020&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Iván Ruvalcaba
+August 31, 2017&nbsp;·&nbsp;10 min&nbsp;·&nbsp;Iván Ruvalcaba
 </footer>
-  <a class="entry-link" aria-label="post link to Cómo configurar el panel táctil en Debian" href="http://ivanruvalcaba.cf/post/como-configurar-el-panel-tactil-en-debian/"></a>
+  <a class="entry-link" aria-label="post link to Squashing commits con Git" href="http://ivanruvalcaba.cf/post/squashing-commits-con-git/"></a>
 </article>
 
     </main><footer class="footer">
