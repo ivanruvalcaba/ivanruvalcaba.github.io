@@ -15,8 +15,8 @@
       <guid>http://ivanruvalcaba.cf/post/como-configurar-el-panel-tactil-en-debian/</guid>
       <description>Para configurar el panel táctil —touchpad— a través de libinput, es necesario tener instalado en el sistema el paquete xserver-xorg-input-libinput y a continuación editar el archivo de configuración /usr/share/X11/xorg.conf.d/40-libinput.conf.
 Por ejemplo:
-sudo nano /usr/share/X11/xorg.conf.d/40-libinput.confUna vez abierto el archivo, proceda a ubicar y posicionarse en la siguiente sección:
-Section &amp;quot;InputClass&amp;quot;Identifier &amp;quot;libinput touchpad catchall&amp;quot;MatchIsTouchpad &amp;quot;on&amp;quot;MatchDevicePath &amp;quot;/dev/input/event*&amp;quot;Driver &amp;quot;libinput&amp;quot;EndSectionComo siguiente paso, agregue las opciones o preferencias correspondientes a dicha sección, como se muestra a continuación:</description>
+sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf Una vez abierto el archivo, proceda a ubicar y posicionarse en la siguiente sección:
+Section &amp;quot;InputClass&amp;quot; Identifier &amp;quot;libinput touchpad catchall&amp;quot; MatchIsTouchpad &amp;quot;on&amp;quot; MatchDevicePath &amp;quot;/dev/input/event*&amp;quot; Driver &amp;quot;libinput&amp;quot; EndSection Como siguiente paso, agregue las opciones o preferencias correspondientes a dicha sección, como se muestra a continuación:</description>
     </item>
     
   </channel>
