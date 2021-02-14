@@ -9,17 +9,21 @@ tags:
 draft: false
 ---
 
-Para configurar el panel táctil —*touchpad*— a través de *libinput*, es necesario tener instalado en el sistema el paquete ``xserver-xorg-input-libinput`` y a continuación editar el archivo de configuración ``/usr/share/X11/xorg.conf.d/40-libinput.conf``.
+Para configurar el panel táctil —*touchpad*— a través de *libinput*, es
+necesario tener instalado en el sistema el paquete `xserver-xorg-input-libinput`
+y a continuación editar el archivo de configuración
+`/usr/share/X11/xorg.conf.d/40-libinput.conf`.
 
 Por ejemplo:
 
-```
+```console
 sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf
 ```
 
-Una vez abierto el archivo, proceda a ubicar y posicionarse en la siguiente sección:
+Una vez abierto el archivo, proceda a ubicar y posicionarse en la siguiente
+sección:
 
-```
+```console
 Section "InputClass"
         Identifier "libinput touchpad catchall"
         MatchIsTouchpad "on"
@@ -28,9 +32,10 @@ Section "InputClass"
 EndSection
 ```
 
-Como siguiente paso, agregue las opciones o preferencias correspondientes a dicha sección, como se muestra a continuación:
+Como siguiente paso, agregue las opciones o preferencias correspondientes a
+dicha sección, como se muestra a continuación:
 
-```
+```console
 Section "InputClass"
         Identifier "libinput touchpad catchall"
         MatchIsTouchpad "on"
@@ -44,6 +49,9 @@ EndSection
 
 Por último, guarde el archivo y reinicie el ordenador.
 
-Si desea conocer la opciones de configuración disponibles, consulte la sección: [detalles de configuración](https://www.systutorials.com/docs/linux/man/4-libinput/#lbAF) de ``man libinput``.
+Si desea conocer la opciones de configuración disponibles, consulte la sección:
+[detalles de
+configuración](https://www.systutorials.com/docs/linux/man/4-libinput/#lbAF) de
+``man libinput``.
 
 **Fuente:** [LibinputTouchpad](https://wiki.debian.org/LibinputTouchpad).
