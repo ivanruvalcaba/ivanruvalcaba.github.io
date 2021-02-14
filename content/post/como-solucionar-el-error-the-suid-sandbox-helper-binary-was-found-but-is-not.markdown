@@ -9,13 +9,17 @@ tags:
 draft: false
 ---
 
-Este problema ocurre con todas las aplicaciones desarrolladas con el *framework Electron*. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:
+Este problema ocurre con todas las aplicaciones desarrolladas con el *framework
+Electron*. Al intentar ejecutarlas desde una terminal, es posible apreciar el
+siguiente error:
 
-> The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I'm aborting now.
+> The SUID sandbox helper binary was found, but is not configured correctly.
+> Rather than run without sandboxing I'm aborting now.
 
-Para solucionar dicho problema, todo lo que necesita hacer es establecer los permisos adecuados para el archivo ``chrome-sandbox``, por ejemplo:
+Para solucionar dicho problema, todo lo que necesita hacer es establecer los
+permisos adecuados para el archivo `chrome-sandbox`, por ejemplo:
 
-```
+```console
 cd /opt/whatsdesk
 sudo chown root:root chrome-sandbox
 sudo chmod 4755 chrome-sandbox
@@ -23,14 +27,14 @@ sudo chmod 4755 chrome-sandbox
 
 Otras soluciones alternativas, y por lo tanto menos recomendables, son:
 
-1. Ejecutar la aplicación con el argumento ``--no-sandbox``:
+* Ejecutar la aplicación con el argumento `--no-sandbox`:
 
-```
+```console
 ./whatsdesk --no-sandbox
 ```
 
-2. Habilitar el acceso sin privilegios del kernel:
+* Habilitar el acceso sin privilegios del kernel:
 
-```
+```console
 sudo sysctl kernel.unprivileged_userns_clone=1
 ```
