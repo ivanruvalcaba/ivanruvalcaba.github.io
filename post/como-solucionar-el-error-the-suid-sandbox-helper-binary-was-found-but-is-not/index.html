@@ -38,7 +38,7 @@ cd /opt/whatsdesk sudo chown root:root chrome-sandbox sudo chmod 4755 chrome-san
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://ivanruvalcaba.cf/post/como-solucionar-el-error-the-suid-sandbox-helper-binary-was-found-but-is-not/" />
 <meta property="article:published_time" content="2021-01-01T00:00:00-06:00" />
-<meta property="article:modified_time" content="2021-02-12T12:14:52-06:00" />
+<meta property="article:modified_time" content="2021-02-14T07:42:22-06:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Cómo solucionar el error «The SUID sandbox helper binary was found, but is not configured correctly.» en Debian"/>
 <meta name="twitter:description" content="Este problema ocurre con todas las aplicaciones desarrolladas con el framework Electron. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:
@@ -56,11 +56,11 @@ cd /opt/whatsdesk sudo chown root:root chrome-sandbox sudo chmod 4755 chrome-san
   "keywords": [
     "debian", "electron"
   ],
-  "articleBody": "Este problema ocurre con todas las aplicaciones desarrolladas con el framework Electron. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:\n The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I’m aborting now.\n Para solucionar dicho problema, todo lo que necesita hacer es establecer los permisos adecuados para el archivo chrome-sandbox, por ejemplo:\ncd /opt/whatsdesk sudo chown root:root chrome-sandbox sudo chmod 4755 chrome-sandbox Otras soluciones alternativas, y por lo tanto menos recomendables, son:\n Ejecutar la aplicación con el argumento --no-sandbox:  ./whatsdesk --no-sandbox Habilitar el acceso sin privilegios del kernel:  sudo sysctl kernel.unprivileged_userns_clone=1 ",
+  "articleBody": "Este problema ocurre con todas las aplicaciones desarrolladas con el framework Electron. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:\n The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I’m aborting now.\n Para solucionar dicho problema, todo lo que necesita hacer es establecer los permisos adecuados para el archivo chrome-sandbox, por ejemplo:\ncd /opt/whatsdesk sudo chown root:root chrome-sandbox sudo chmod 4755 chrome-sandbox Otras soluciones alternativas, y por lo tanto menos recomendables, son:\n Ejecutar la aplicación con el argumento --no-sandbox:  ./whatsdesk --no-sandbox  Habilitar el acceso sin privilegios del kernel:  sudo sysctl kernel.unprivileged_userns_clone=1 ",
   "wordCount" : "103",
   "inLanguage": "es",
   "datePublished": "2021-01-01T00:00:00-06:00",
-  "dateModified": "2021-02-12T12:14:52-06:00",
+  "dateModified": "2021-02-14T07:42:22-06:00",
   "author":{
     "@type": "Person",
     "name": "Iván Ruvalcaba"
@@ -178,23 +178,27 @@ January 1, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Iván Ruvalcaba
   </header> 
 
   <div class="post-content">
-<p>Este problema ocurre con todas las aplicaciones desarrolladas con el <em>framework Electron</em>. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:</p>
+<p>Este problema ocurre con todas las aplicaciones desarrolladas con el <em>framework
+Electron</em>. Al intentar ejecutarlas desde una terminal, es posible apreciar el
+siguiente error:</p>
 <blockquote>
-<p>The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I&rsquo;m aborting now.</p>
+<p>The SUID sandbox helper binary was found, but is not configured correctly.
+Rather than run without sandboxing I&rsquo;m aborting now.</p>
 </blockquote>
-<p>Para solucionar dicho problema, todo lo que necesita hacer es establecer los permisos adecuados para el archivo <code>chrome-sandbox</code>, por ejemplo:</p>
-<pre><code>cd /opt/whatsdesk
+<p>Para solucionar dicho problema, todo lo que necesita hacer es establecer los
+permisos adecuados para el archivo <code>chrome-sandbox</code>, por ejemplo:</p>
+<pre><code class="language-console" data-lang="console">cd /opt/whatsdesk
 sudo chown root:root chrome-sandbox
 sudo chmod 4755 chrome-sandbox
 </code></pre><p>Otras soluciones alternativas, y por lo tanto menos recomendables, son:</p>
-<ol>
+<ul>
 <li>Ejecutar la aplicación con el argumento <code>--no-sandbox</code>:</li>
-</ol>
-<pre><code>./whatsdesk --no-sandbox
-</code></pre><ol start="2">
+</ul>
+<pre><code class="language-console" data-lang="console">./whatsdesk --no-sandbox
+</code></pre><ul>
 <li>Habilitar el acceso sin privilegios del kernel:</li>
-</ol>
-<pre><code>sudo sysctl kernel.unprivileged_userns_clone=1
+</ul>
+<pre><code class="language-console" data-lang="console">sudo sysctl kernel.unprivileged_userns_clone=1
 </code></pre>
 </div>
   <footer class="post-footer">
