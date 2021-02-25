@@ -1,4 +1,4 @@
-baseURL: "http://ivanruvalcaba.cf/"
+baseURL: "https://ivanruvalcaba.cf/"
 title: "$ cat /dev/random > /dev/null 2>&1"
 languageCode: es-MX
 defaultContentLanguage: es
