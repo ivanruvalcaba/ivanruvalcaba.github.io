@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</title>
-    <link>http://ivanruvalcaba.cf/post/</link>
+    <link>https://ivanruvalcaba.cf/post/</link>
     <description>Recent content in Posts on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-MX</language>
-    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 -0600</lastBuildDate><atom:link href="http://ivanruvalcaba.cf/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 -0600</lastBuildDate><atom:link href="https://ivanruvalcaba.cf/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Defendiendo mi independencia tecnológica</title>
-      <link>http://ivanruvalcaba.cf/post/defendiendo-mi-independencia-tecnologica/</link>
+      <link>https://ivanruvalcaba.cf/post/defendiendo-mi-independencia-tecnologica/</link>
       <pubDate>Sat, 09 Jan 2021 00:00:00 -0600</pubDate>
       
-      <guid>http://ivanruvalcaba.cf/post/defendiendo-mi-independencia-tecnologica/</guid>
+      <guid>https://ivanruvalcaba.cf/post/defendiendo-mi-independencia-tecnologica/</guid>
       <description>Como muchas personas quizás sepan ya, WhatsApp ha actualizado sus términos, condiciones de uso y política de privacidad, las cuales entrarán en vigor a partir del 8 de febrero 15 de mayo del presente año —según se ha pronunciado la compañía en un nuevo comunicado—, privando con ello a sus usuarios de la posibilidad de decidir si desean o no aceptar sus nuevas clausulas, lo cual implica que el usuario NO tenga más remedio que acceder a sus intenciones si desean continuar utilizando WhatsApp como medio de comunicación.</description>
     </item>
     
     <item>
       <title>Cómo solucionar el error «The SUID sandbox helper binary was found, but is not configured correctly.» en Debian</title>
-      <link>http://ivanruvalcaba.cf/post/como-solucionar-el-error-the-suid-sandbox-helper-binary-was-found-but-is-not/</link>
+      <link>https://ivanruvalcaba.cf/post/como-solucionar-el-error-the-suid-sandbox-helper-binary-was-found-but-is-not/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 -0600</pubDate>
       
-      <guid>http://ivanruvalcaba.cf/post/como-solucionar-el-error-the-suid-sandbox-helper-binary-was-found-but-is-not/</guid>
+      <guid>https://ivanruvalcaba.cf/post/como-solucionar-el-error-the-suid-sandbox-helper-binary-was-found-but-is-not/</guid>
       <description>Este problema ocurre con todas las aplicaciones desarrolladas con el framework Electron. Al intentar ejecutarlas desde una terminal, es posible apreciar el siguiente error:
  The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I&amp;rsquo;m aborting now.
  Para solucionar dicho problema, todo lo que necesita hacer es establecer los permisos adecuados para el archivo chrome-sandbox, por ejemplo:
@@ -30,39 +30,39 @@ cd /opt/whatsdesk sudo chown root:root chrome-sandbox sudo chmod 4755 chrome-san
     
     <item>
       <title>Cómo eliminar todos los correos electrónicos contenidos en una determinada carpeta con Mutt</title>
-      <link>http://ivanruvalcaba.cf/post/como-eliminar-todos-los-correos-electronicos-contenidos-en-una-determinada/</link>
+      <link>https://ivanruvalcaba.cf/post/como-eliminar-todos-los-correos-electronicos-contenidos-en-una-determinada/</link>
       <pubDate>Thu, 31 Dec 2020 00:00:00 -0600</pubDate>
       
-      <guid>http://ivanruvalcaba.cf/post/como-eliminar-todos-los-correos-electronicos-contenidos-en-una-determinada/</guid>
+      <guid>https://ivanruvalcaba.cf/post/como-eliminar-todos-los-correos-electronicos-contenidos-en-una-determinada/</guid>
       <description>Antes de proceder, ubíquese dentro de la carpeta que contenga los correos que desea eliminar —presione c + ? para mostrar un listado de las carpetas existentes en su cuenta de correo—. Una vez hecho lo anterior, presione Shift+d + ~ + Shift+a para eliminar todo el contenido de la carpeta de correo.</description>
     </item>
     
     <item>
       <title>Surplus cognitivo</title>
-      <link>http://ivanruvalcaba.cf/post/surplus-cognitivo/</link>
+      <link>https://ivanruvalcaba.cf/post/surplus-cognitivo/</link>
       <pubDate>Tue, 10 Nov 2020 11:43:58 -0600</pubDate>
       
-      <guid>http://ivanruvalcaba.cf/post/surplus-cognitivo/</guid>
+      <guid>https://ivanruvalcaba.cf/post/surplus-cognitivo/</guid>
       <description>El surplus cognitivo, también denominado como «excedente cognitivo», es un concepto desarrollo por Clay Shirky1 —en su obra Cognitive Surplus: Creativity and Generosity in a Connected Age2— que, se fundamenta principalmente en la idea de que todos disponemos de un sobrante —surplus— cognitivo. Dicho excedente puede ser utilizado, por decisión individual, en la generación de actividades productivas, colaborativas y de enriquecimiento cultural.
 Según Shirky, en la actualidad disponemos de una mayor cantidad de tiempo libre.</description>
     </item>
     
     <item>
       <title>La clave del éxito</title>
-      <link>http://ivanruvalcaba.cf/post/la-clave-del-exito/</link>
+      <link>https://ivanruvalcaba.cf/post/la-clave-del-exito/</link>
       <pubDate>Mon, 05 Oct 2020 00:00:00 -0600</pubDate>
       
-      <guid>http://ivanruvalcaba.cf/post/la-clave-del-exito/</guid>
+      <guid>https://ivanruvalcaba.cf/post/la-clave-del-exito/</guid>
       <description>La riqueza, es decir la realización personal, está al alcance de todas aquellas personas que así lo desean; basta simplemente con desvelar un secreto, la clave del éxito. Para ello lo primero que se necesita es, sistematizarlo; después, hacerlo accesible a cualquier persona del entorno que nos rodea. Para lograr la realización personal es necesario conseguir la independencia financiera y la riqueza del espíritu.
 Los pensamientos son elementos muy poderosos, que cuando se combinan con la exactitud del propósito, la perseverancia y el imperioso deseo de convertirlas en riqueza, ponen de manifiesto el camino hacia el éxito.</description>
     </item>
     
     <item>
       <title>Cómo configurar el panel táctil en Debian</title>
-      <link>http://ivanruvalcaba.cf/post/como-configurar-el-panel-tactil-en-debian/</link>
+      <link>https://ivanruvalcaba.cf/post/como-configurar-el-panel-tactil-en-debian/</link>
       <pubDate>Sat, 13 Jun 2020 00:00:00 -0600</pubDate>
       
-      <guid>http://ivanruvalcaba.cf/post/como-configurar-el-panel-tactil-en-debian/</guid>
+      <guid>https://ivanruvalcaba.cf/post/como-configurar-el-panel-tactil-en-debian/</guid>
       <description>Para configurar el panel táctil —touchpad— a través de libinput, es necesario tener instalado en el sistema el paquete xserver-xorg-input-libinput y a continuación editar el archivo de configuración /usr/share/X11/xorg.conf.d/40-libinput.conf.
 Por ejemplo:
 sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf Una vez abierto el archivo, proceda a ubicar y posicionarse en la siguiente sección:
@@ -71,29 +71,29 @@ Section &amp;quot;InputClass&amp;quot; Identifier &amp;quot;libinput touchpad ca
     
     <item>
       <title>¿Qué es el fenómeno «lifestyle creep»?</title>
-      <link>http://ivanruvalcaba.cf/post/fenomeno-lifestyle-creep/</link>
+      <link>https://ivanruvalcaba.cf/post/fenomeno-lifestyle-creep/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 -0600</pubDate>
       
-      <guid>http://ivanruvalcaba.cf/post/fenomeno-lifestyle-creep/</guid>
+      <guid>https://ivanruvalcaba.cf/post/fenomeno-lifestyle-creep/</guid>
       <description>El lifestyle creep, conocido también como inflación del estilo de vida o lifestyle inflation, es un fenómeno que ocurre cuando se gastan más recursos económicos al intentar alcanzar lo que se considera el nivel estándar de vida, lo que implica que ciertos artículos, productos, o servicios —mismos que anteriormente eran considerados como lujos—, se conviertan en «necesidades» percibidas a medida que se mejora el nivel de vida.
 Este fenómeno es común entre adultos jóvenes en edades que comprenden los 20 y 30 años.</description>
     </item>
     
     <item>
       <title>El despropósito de la web actual</title>
-      <link>http://ivanruvalcaba.cf/post/el-desproposito-de-la-web-actual/</link>
+      <link>https://ivanruvalcaba.cf/post/el-desproposito-de-la-web-actual/</link>
       <pubDate>Fri, 26 Oct 2018 00:00:00 -0600</pubDate>
       
-      <guid>http://ivanruvalcaba.cf/post/el-desproposito-de-la-web-actual/</guid>
+      <guid>https://ivanruvalcaba.cf/post/el-desproposito-de-la-web-actual/</guid>
       <description>La velocidad de transferencia de datos de nuestra conexión a Internet es mucho más rápida que hace poco más de una década, sin embargo la experiencia de navegación a través de la red no refleja tal realidad. Esto se debe a que el ancho de banda actualmente disponible es empleado para sobrecargar los páginas web con más y más cosas, las cuales casi siempre resultan ser bastante innecesarias y superfluas.</description>
     </item>
     
     <item>
       <title>Squashing commits con Git</title>
-      <link>http://ivanruvalcaba.cf/post/squashing-commits-con-git/</link>
+      <link>https://ivanruvalcaba.cf/post/squashing-commits-con-git/</link>
       <pubDate>Thu, 31 Aug 2017 00:00:00 -0600</pubDate>
       
-      <guid>http://ivanruvalcaba.cf/post/squashing-commits-con-git/</guid>
+      <guid>https://ivanruvalcaba.cf/post/squashing-commits-con-git/</guid>
       <description>En diversas ocasiones, mientras se trabaja en un proyecto, posiblemente desee revisar su historial de revisiones (commits). Una de las principales razones podría ser la de revisar los cambios realizados antes de ser enviados «upstream». Otra posible razón podría ser la de revisar los comentarios dentro del repositorio para efectuar el lanzamiento de una nueva versión del proyecto. O simplemente quizás le gustaría reorganizar o «limpiar» el histórico de versiones para mantener una mejor coherencia en la descripción de los cambios efectuados, siendo este último punto donde destaca la verdadera importancia de llevar a cabo una de las mejores prácticas al recurrir a un sistema de control de versiones: los squashing commits.</description>
     </item>
     

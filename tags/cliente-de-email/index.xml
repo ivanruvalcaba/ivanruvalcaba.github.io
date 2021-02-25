@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cliente-de-email on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</title>
-    <link>http://ivanruvalcaba.cf/tags/cliente-de-email/</link>
+    <link>https://ivanruvalcaba.cf/tags/cliente-de-email/</link>
     <description>Recent content in cliente-de-email on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-MX</language>
-    <lastBuildDate>Thu, 31 Dec 2020 00:00:00 -0600</lastBuildDate><atom:link href="http://ivanruvalcaba.cf/tags/cliente-de-email/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Dec 2020 00:00:00 -0600</lastBuildDate><atom:link href="https://ivanruvalcaba.cf/tags/cliente-de-email/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cómo eliminar todos los correos electrónicos contenidos en una determinada carpeta con Mutt</title>
-      <link>http://ivanruvalcaba.cf/post/como-eliminar-todos-los-correos-electronicos-contenidos-en-una-determinada/</link>
+      <link>https://ivanruvalcaba.cf/post/como-eliminar-todos-los-correos-electronicos-contenidos-en-una-determinada/</link>
       <pubDate>Thu, 31 Dec 2020 00:00:00 -0600</pubDate>
       
-      <guid>http://ivanruvalcaba.cf/post/como-eliminar-todos-los-correos-electronicos-contenidos-en-una-determinada/</guid>
+      <guid>https://ivanruvalcaba.cf/post/como-eliminar-todos-los-correos-electronicos-contenidos-en-una-determinada/</guid>
       <description>Antes de proceder, ubíquese dentro de la carpeta que contenga los correos que desea eliminar —presione c + ? para mostrar un listado de las carpetas existentes en su cuenta de correo—. Una vez hecho lo anterior, presione Shift+d + ~ + Shift+a para eliminar todo el contenido de la carpeta de correo.</description>
     </item>
     

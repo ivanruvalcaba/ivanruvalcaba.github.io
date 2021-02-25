@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</title>
-    <link>http://ivanruvalcaba.cf/categories/</link>
+    <link>https://ivanruvalcaba.cf/categories/</link>
     <description>Recent content in Categories on $ cat /dev/random &gt; /dev/null 2&gt;&amp;1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-MX</language>
-    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 -0600</lastBuildDate><atom:link href="http://ivanruvalcaba.cf/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 -0600</lastBuildDate><atom:link href="https://ivanruvalcaba.cf/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>opinión</title>
-      <link>http://ivanruvalcaba.cf/categories/opini%C3%B3n/</link>
+      <link>https://ivanruvalcaba.cf/categories/opini%C3%B3n/</link>
       <pubDate>Sat, 09 Jan 2021 00:00:00 -0600</pubDate>
       
-      <guid>http://ivanruvalcaba.cf/categories/opini%C3%B3n/</guid>
+      <guid>https://ivanruvalcaba.cf/categories/opini%C3%B3n/</guid>
       <description></description>
     </item>
     
     <item>
       <title>how-to</title>
-      <link>http://ivanruvalcaba.cf/categories/how-to/</link>
+      <link>https://ivanruvalcaba.cf/categories/how-to/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 -0600</pubDate>
       
-      <guid>http://ivanruvalcaba.cf/categories/how-to/</guid>
+      <guid>https://ivanruvalcaba.cf/categories/how-to/</guid>
       <description></description>
     </item>
     
     <item>
       <title>terminología</title>
-      <link>http://ivanruvalcaba.cf/categories/terminolog%C3%ADa/</link>
+      <link>https://ivanruvalcaba.cf/categories/terminolog%C3%ADa/</link>
       <pubDate>Tue, 10 Nov 2020 11:43:58 -0600</pubDate>
       
-      <guid>http://ivanruvalcaba.cf/categories/terminolog%C3%ADa/</guid>
+      <guid>https://ivanruvalcaba.cf/categories/terminolog%C3%ADa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>citas</title>
-      <link>http://ivanruvalcaba.cf/categories/citas/</link>
+      <link>https://ivanruvalcaba.cf/categories/citas/</link>
       <pubDate>Mon, 05 Oct 2020 00:00:00 -0600</pubDate>
       
-      <guid>http://ivanruvalcaba.cf/categories/citas/</guid>
+      <guid>https://ivanruvalcaba.cf/categories/citas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>http://ivanruvalcaba.cf/categories/git/</link>
+      <link>https://ivanruvalcaba.cf/categories/git/</link>
       <pubDate>Thu, 31 Aug 2017 00:00:00 -0600</pubDate>
       
-      <guid>http://ivanruvalcaba.cf/categories/git/</guid>
+      <guid>https://ivanruvalcaba.cf/categories/git/</guid>
       <description></description>
     </item>
     
