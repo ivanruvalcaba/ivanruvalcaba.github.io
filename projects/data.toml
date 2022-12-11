@@ -1,0 +1,6 @@
+[[project]]
+name = "$ cat /dev/random > /dev/null 2>&1"
+desc = "Mi blog en Wordpress — En él pretendo abordar temas desde una perspectiva mucho más personal, o bien, opinar y tratar sobre aspectos que no tendrían cabida en el presente sitio."
+links = [
+    {name = "$ cat /dev/random > /dev/null 2>&1", url = "https://devrandomdevnull.wordpress.com/"}
+]

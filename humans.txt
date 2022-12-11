@@ -1,0 +1,25 @@
+# http://humanstxt.org/
+
+# TEAM
+
+  Self-taught & Software Craftsman: Iván Ruvalcaba
+  Contact: ivanruvalcaba[at]disroot[dot]com
+  From: Naucalpan de Júarez, Estado de México, México
+
+# THANKS
+
+  With ❤ to: My family (Luz María, Valeria, «el chaparrito», Jean, Iván, «Bisho» 😺) and my Father
+  Zola Developers and Contributors: Hey guys! Without you this would not be easily possible!!!
+  Vim Developers: The best text editor ever!!!
+  Free & Open Source Developers: You rules!!!
+
+# TECHNOLOGY COLOPHON
+
+  Last update: 2022/08/15
+  Standards: HTML5, CSS3
+  Language: Spanish
+  Language Markup: CommonMark
+  Text editor: Vim
+  Static Site Generator: Zola
+  Components: Serene Theme
+  Software: Git, GitUi, Tig, Gitmoji, GNU Make

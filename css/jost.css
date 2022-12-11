@@ -1,0 +1,13 @@
+/* jost-regular - latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/jost-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/jost-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/jost-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/jost-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/jost-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/jost-v14-latin-regular.svg#Jost') format('svg'); /* Legacy iOS */
+}
