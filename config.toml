@@ -1,0 +1,104 @@
+# The URL the site will be built for
+base_url = "https://ivanruvalcaba.cf"
+title = "$ cat /dev/random > /dev/null 2>&1"
+description = "Unplugged thoughts and ideas… basically, screaming to the void!"
+default_language = "es"
+theme = "serene"
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+# Whether to minify html code
+minify_html = true
+# Whether to generate a feed file in root, read docs for more info about rss feed
+generate_feed = false
+# The file name of feed, "feed.xml" / "atom.xml" / "rss.xml", read docs for more info
+feed_filename = "feed.xml"
+
+taxonomies = [
+  {name="categories", rss=true},
+  {name="tags", rss=true},
+]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+# The highlight theme, choose one at https://www.getzola.org/documentation/getting-started/configuration/#syntax-highlighting
+highlight_theme = "two-dark"
+render_emoji = true
+external_links_target_blank = false
+external_links_no_follow = true
+external_links_no_referrer = true
+smart_punctuation = false
+
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"
+
+[extra]
+# Put all your custom variables here
+
+# Your name
+name = "Iván Ruvalcaba"
+# Your id/username/handle
+id = "ivanruvalcaba"
+# Your bio
+bio = "Self-taught, Software Craftsman & Hipster 💻."
+# Your avatar
+avatar = "img/avatar.png"
+# Whether to show your id in homepage
+show_id = true
+# Whether to show projects page
+show_projects = true
+
+#============== Icons, you can choose at https://remixicon.com/ ====
+
+blog_icon = "ri-pen-nib-line"
+projects_icon = "ri-flask-line"
+home_icon = "ri-user-6-line"
+rss_icon = "ri-rss-line"
+toc_icon = "ri-menu-2-line"
+
+#============== Social media links =================================
+
+# Your can add more links
+links = [
+    {name = "Mastodon", icon = "ri-mastodon-fill", url = "https://mstdn.mx/@ivanruvalcaba", rel = "me"},
+    {name = "GitHub", icon = "ri-github-fill", url = "https://github.com/ivanruvalcaba"},
+    {name = "Keyoxide", icon = "ri-fingerprint-fill", url = "https://keyoxide.org/hkp/026DB8BE3F5C1533FF9D4CC2DBB4A5B917E572DE"},
+]
+
+#============== Feed ===============================================
+
+# Whether to make feed file in blog section, url will be https://example.com/blog/feed.xml, read docs for more info about rss feed
+feed_in_blog_section = true
+
+#============== Some feature switches ================================
+
+# Whether to show Table-Of-Contents [Can be overridden by page config]
+toc = true
+# Whether to turn on blur effect on navigation bar
+blur_effect = true
+# Whether to show Back-To-Top button
+back_to_top_button = true
+# Whether to show reading progress bar
+progress_bar = true
+# Whether to show Creative-Commons statement [Can be overridden by page config]
+cc_license = true
+# The Creative-Commons statement
+cc_license_statement = "This work is licensed under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed)."
+# Whether to show outdate warning [Can be overridden by page config]
+outdate_warn = true
+# How many days will a post be outdated [Can be overridden by page config]
+outdate_warn_days = 120
+outdate_warn_text_before = "Note: This article was last updated "
+outdate_warn_text_after = " days ago and may be out of date."
+
+#============== Footer =============================================
+
+footer_copyright_name = "Iván Ruvalcaba"
+footer_copyright_year = "2022"
+# footer_custom = "xxxxxxxx"
+footer_credits = true            # Whether to show "Powered by Zola and Serene" in footer
