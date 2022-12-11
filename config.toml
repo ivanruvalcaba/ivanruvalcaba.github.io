@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://ivanruvalcaba.cf"
+base_url = "https://ivanruvalcaba.github.io"
 title = "$ cat /dev/random > /dev/null 2>&1"
 description = "Unplugged thoughts and ideas… basically, screaming to the void!"
 default_language = "es"
