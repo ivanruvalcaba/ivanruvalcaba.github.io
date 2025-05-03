@@ -1,4 +1,4 @@
-# editorconfig.org
+# EditorConfig is awesome: http://EditorConfig.org
 
 # https://github.com/jokeyrhyme/standard-editorconfig
 
@@ -12,10 +12,27 @@ end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-# GNU make
-# https://www.gnu.org/software/make/manual/html_node/Recipe-Syntax.html
-[Makefile]
-indent_style = tab
+# CSS
+# https://google.github.io/styleguide/htmlcssguide.xml#General_Formatting_Rules
+# http://cssguidelin.es/#syntax-and-formatting
+[*.css]
+indent_size = 2
+indent_style = space
+trim_trailing_whitespace = true
+
+# HTML
+# https://google.github.io/styleguide/htmlcssguide.xml#General_Formatting_Rules
+[*.{htm,html}]
+indent_size = 2
+indent_style = space
+trim_trailing_whitespace = true
+
+# JavaScript, JSON, JSX, JavaScript Modules, TypeScript
+# https://github.com/feross/standard
+# https://prettier.io
+[*.{cjs,js,json,jsx,mjs,ts,tsx}]
+indent_size = 2
+indent_style = space
 
 # Markdown
 [*.md]
