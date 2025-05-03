@@ -65,7 +65,7 @@ toc_icon = "ri-menu-2-line"
 
 # Your can add more links
 links = [
-    {name = "Mastodon", icon = "ri-mastodon-fill", url = "https://mstdn.mx/@ivanruvalcaba", rel = "me"},
+    {name = "Mastodon", icon = "ri-mastodon-fill", url = "https://mastodon.social/@ivanruvalcaba", rel = "me"},
     {name = "GitHub", icon = "ri-github-fill", url = "https://github.com/ivanruvalcaba"},
     {name = "Keyoxide", icon = "ri-fingerprint-fill", url = "https://keyoxide.org/hkp/026DB8BE3F5C1533FF9D4CC2DBB4A5B917E572DE"},
 ]
@@ -99,6 +99,6 @@ outdate_warn_text_after = " days ago and may be out of date."
 #============== Footer =============================================
 
 footer_copyright_name = "Iván Ruvalcaba"
-footer_copyright_year = "2022"
+footer_copyright_year = "2025"
 # footer_custom = "xxxxxxxx"
 footer_credits = true            # Whether to show "Powered by Zola and Serene" in footer
