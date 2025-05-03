@@ -102,3 +102,17 @@ footer_copyright_name = "Iván Ruvalcaba"
 footer_copyright_year = "2025"
 # footer_custom = "xxxxxxxx"
 footer_credits = true            # Whether to show "Powered by Zola and Serene" in footer
+
+#============== Comments config ====================
+comment = "none"                 # gitalk / disqus / disqus_js
+
+[extra.gitalk]
+client_id = "xxxxxxxx"
+client_secret = "xxxxxxxx"
+repo = "xxxxxxxx"
+owner = "xxxx"
+admin = ["xxxx"]
+distraction_free_mode = false
+per_page = 10
+page_direction = "first"
+proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"
