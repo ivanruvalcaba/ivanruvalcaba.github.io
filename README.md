@@ -32,7 +32,7 @@ Si desea contactar a su autor, por favor refiérase a: [<ivanruvalcaba\[at\]disr
 
 ## Licencia
 
-Copyright (c) 2022 — Iván Ruvalcaba. *A no ser que se indique explícitamente lo contrario, el contenido de este sitio se encuentra sujeto a los términos de la licencia [Creative Commons CC0 1.0 Universal (CC0 1.0) Ofrecimiento al Dominio Público][cc0].*
+Copyright (c) 2025 — Iván Ruvalcaba. *A no ser que se indique explícitamente lo contrario, el contenido de este sitio se encuentra sujeto a los términos de la licencia [Creative Commons CC0 1.0 Universal (CC0 1.0) Ofrecimiento al Dominio Público][cc0].*
 
 [website]: https://ivanruvalcaba.github.io/
 [zola]: https://www.getzola.org/ "Your one-stop static site engine"
