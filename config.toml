@@ -11,9 +11,9 @@ build_search_index = false
 # Whether to minify html code
 minify_html = true
 # Whether to generate a feed file in root, read docs for more info about rss feed
-generate_feed = false
+generate_feeds = false
 # The file name of feed, "feed.xml" / "atom.xml" / "rss.xml", read docs for more info
-feed_filename = "feed.xml"
+feed_filenames = "feed.xml"
 
 taxonomies = [
   {name="categories", rss=true},
